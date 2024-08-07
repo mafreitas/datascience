@@ -1,0 +1,23 @@
+name: datascience
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.3
+  - python=3.11.4
+  - r-dplyr
+  - r-ggplot2
+  - r-reshape2
+  - r-tidyverse
+  - r-shiny
+  - pip
+  - pip:
+    - pandas
+    - matplotlib
+    - numpy
+    - scipy
+    - seaborn
+    - pyteomics
+    - plotly
+    

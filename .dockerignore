@@ -1,0 +1,5 @@
+venv/
+share/
+dev_requirements.txt
+build.sh
+run.sh
